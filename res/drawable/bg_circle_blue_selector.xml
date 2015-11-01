@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android" android:exitFadeDuration="@android:integer/config_mediumAnimTime">
+    <item android:state_pressed="true" >
+        <shape 
+            android:shape="oval">
+            <gradient
+                android:startColor="@color/nav_bg"
+                android:endColor="@color/nav_bg"
+                android:angle="270" />
+            <stroke
+                android:width="0px"
+                android:color="#d2d2d2" />
+            <corners
+                android:radius="5dp" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true" >
+        <shape
+            android:shape="oval">
+            <gradient
+                android:startColor="@color/nav_bg"
+                android:endColor="@color/nav_bg"
+                android:angle="270" />
+            <stroke
+                android:width="0px"
+                android:color="#d2d2d2" />
+            <corners
+                android:radius="5dp" />
+        </shape>
+    </item>
+    
+    <item android:state_enabled="false" >
+        <shape
+            android:shape="oval">
+            <gradient
+                android:startColor="@color/nav_bg"
+                android:endColor="@color/nav_bg"
+                android:angle="270" />
+            <stroke
+                android:width="0px"
+                android:color="#d2d2d2" />
+            <corners
+                android:radius="5dp" />
+        </shape>
+    </item>
+
+    <item>       
+        <shape
+            android:shape="oval">
+            <gradient
+                android:startColor="@color/nav_bg"
+                android:endColor="@color/nav_bg"
+                android:angle="270" />
+            <stroke
+                android:width="0px"
+                android:color="#d2d2d2" />
+            <corners
+                android:radius="5dp" />
+        </shape>
+    </item>
+</selector>

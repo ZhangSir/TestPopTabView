@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:background="@drawable/bg_circle_blue_selector" >
+    
+    <TextView
+	    android:id="@+id/tv_pop_item_id"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/tv_pop_item_name"
+	    android:layout_centerHorizontal="true"
+	    android:text="id"
+	    android:textColor="@color/white"
+	    android:textSize="18sp" />
+    
+	<TextView
+	    android:id="@+id/tv_pop_item_name"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true"
+	    android:text="name"
+	    android:textColor="@color/white"
+	    android:textSize="18sp" />
+	
+	<TextView
+	    android:id="@+id/tv_pop_item_score"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_below="@+id/tv_pop_item_name"
+	    android:text="score"
+	    android:textColor="@color/white"
+	    android:textSize="18sp" />
+    
+    
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 点击放大的tabView -->
+    <declare-styleable name="pop_tabview">
+        <attr name="popTabViewStyle" format="reference"></attr>
+        <attr name="overstepable" format="boolean" />
+        <attr name="popSelectedWidth" format="dimension|reference" />
+        <attr name="popUnselectedWidth" format="dimension|reference" />
+        <attr name="space" format="dimension|reference" />
+    </declare-styleable>
+</resources>

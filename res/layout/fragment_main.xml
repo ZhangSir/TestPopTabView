@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/com.test.poptab"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.test.poptab.MainActivity$PlaceholderFragment" >
+
+<!--     <HorizontalScrollView  -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content"> -->
+        <com.test.poptab.PopTabView
+	        android:id="@+id/ptv_main"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        app:overstepable="false" 
+	        app:popSelectedWidth="144dp"
+	        app:popUnselectedWidth="96dp"
+	        app:space="8dp"
+	        />
+<!--     </HorizontalScrollView> -->
+    
+</RelativeLayout>
